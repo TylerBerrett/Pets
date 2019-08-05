@@ -79,9 +79,28 @@
                     android:padding="5dp"
             />
 
+            <TextView
+                    android:textSize="48dp"
+                    android:textAlignment="center"
+                    android:text="Pets I Would Like To Have"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:textSize="24dp"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A Dog and maybe a Chicken depends on my mood"
+                    android:padding="5dp"
+            />
+
 
         </LinearLayout>
 
     </ScrollView>
+
+
+
 
 </LinearLayout>
