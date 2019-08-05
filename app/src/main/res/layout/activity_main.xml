@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+    <TextView
+            android:textSize="48dp"
+            android:textAlignment="center"
+            android:text="A List of My Current and Past Pets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                    android:textSize="24dp"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="George (Cat)\n 2000-2002"
+                    android:padding="5dp"
+            />
+
+            <TextView
+                    android:textSize="24dp"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mr.Whiskers (Cat)\n 2006-2014"
+                    android:padding="5dp"
+            />
+
+            <TextView
+                    android:textSize="24dp"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lizzy (Lizard)\n 2008-2009"
+                    android:padding="5dp"
+            />
+
+            <TextView
+                    android:textSize="24dp"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Banana (Bird)\n 2009-2011"
+                    android:padding="5dp"
+            />
+
+            <TextView
+                    android:textSize="24dp"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Smokey (Cat)\n 2014-Current"
+                    android:padding="5dp"
+            />
+
+            <TextView
+                    android:textSize="24dp"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Creamy (Cat)\n 2014-Current"
+                    android:padding="5dp"
+            />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
